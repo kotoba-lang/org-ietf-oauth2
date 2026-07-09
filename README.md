@@ -14,6 +14,11 @@ precedent). HTTP transport and the SHA-256/randomness PKCE needs are
 **host-injected capabilities**, the same seam `kotoba-lang/godaddy-dns`
 uses for its HTTP/JSON calls.
 
+See [`kotoba-lang/oauth`](https://github.com/kotoba-lang/oauth) for the
+result-shape substrate layer that composes this with other auth factors
+(host-port pattern, no network/crypto here either, but a different
+abstraction level).
+
 ## Usage
 
 ```clojure
