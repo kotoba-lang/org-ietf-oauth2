@@ -6,7 +6,7 @@
   caller's job (inject whatever `:http-fn` your host already uses, the same
   seam `kotoba-lang/godaddy-dns` uses) — this namespace never makes a
   network call. `.cljc`, zero third-party runtime deps."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 ;; ───────────────────────────── encoding ─────────────────────────────
 

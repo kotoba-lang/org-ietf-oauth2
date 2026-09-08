@@ -1,6 +1,6 @@
 (ns oauth2.core-test
   (:require [clojure.test :refer [deftest testing is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [oauth2.core :as oauth2]))
 
 (deftest authorization-url-test

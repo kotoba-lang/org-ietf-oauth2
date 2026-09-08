@@ -5,7 +5,7 @@
   namespace stays zero third-party runtime deps, portable `.cljc`. The
   base64url codec is a small local implementation (no `java.util.Base64`),
   same portability bar as `kotoba-lang/multiformats`."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 ;; ─────────────────────────── base64url ───────────────────────────
 
