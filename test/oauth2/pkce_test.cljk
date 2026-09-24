@@ -2,7 +2,7 @@
   "PKCE tests. `sha256-fn`/`random-bytes-fn` are test doubles standing in
   for the host-injected capabilities the real library never implements
   itself — see `oauth2.pkce`'s docstring."
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [kotoba.test :refer [deftest testing is]]
             [oauth2.pkce :as pkce]))
 
 ;; A real SHA-256 test double (JVM only) so the S256 test can check against
